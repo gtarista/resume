@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A portfolio showcasing work, experience, and interests with a stunning Three.js particle background.">
+    <meta name="author" content="GTARISTA">
+    <title>Gtarista</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Particle Background Canvas -->
+    <canvas id="c"></canvas>
+
+    <!-- Main Content -->
+    <div class="main-container">
+
+        <!-- Home Section -->
+        <div id="home" class="section">
+            <h1>KIA ORA,</h1>
+            <p>My name is Seth, and I am currently an IT Technician based in Auckland, New Zealand.</p>
+        </div>
+
+        <!-- About Section -->
+        <div id="about" class="section">
+            <h2>About Me</h2>
+            <p>Committed and passionate IT enthusiast aiming to break into the ever-evolving world of cloud technology. I strive for continuous learning and staying updated with the latest IT advancements.</p>
+        </div>
+
+        <div id="experience" class="section">
+            <div class="experience-logos">
+                <img src="img/c.png" alt="C Programming Logo" class="experience-logo">
+                <img src="img/java.png" alt="Java Logo" class="experience-logo">
+                <img src="img/js.png" alt="JavaScript Logo" class="experience-logo">
+                <img src="img/html.png" alt="HTML Logo" class="experience-logo">
+                <img src="img/css.png" alt="CSS Logo" class="experience-logo">
+                <img src="img/vhdl.png" alt="VHDL Logo" class="experience-logo">
+                <img src="img/assembly.png" alt="Assembly Language Logo" class="experience-logo">
+                <img src="img/react.png" alt="React Logo" class="experience-logo">
+            </div>
+            <div class="experience-content">
+                <p>
+                    completed two years of a Computer Engineering degree at the University of San Carlos, Philippines, where I gained knowledge in both software development and computer engineering. I have hands-on experience with C, Java, HTML, CSS, JavaScript, and React, with a strong understanding of the software development cycle and frameworks. I also acquired skills in software development methodologies, enabling collaboration and structured progress. Alongside software development, I built a solid foundation in electronics, logic gates, electrical design, PCB design, and networking concepts. Additionally, I am proficient in computer hardware and have tinkered with Microsoft technologies like Hyper-V and Oracle VirtualBox. I am also planning to tackle infrastructure and cloud technologies to expand my expertise.
+                </p>
+            </div>
+        </div>
+
+        <!-- Contact Section -->
+        <div id="contacts" class="section">
+            <h2>Get in Touch</h2>
+            <p>If you would like to get in touch, feel free to leave your email below!</p>
+            
+            <form id="contactForm">
+                <input type="email" id="userEmail" name="email" placeholder="Enter your email" required>
+                <button type="submit">Submit</button>
+            </form>
+            
+            <div id="responseMessage"></div>
+        </div>
+    </div>
+
+    <!-- Sidebar -->
+    <div class="sidebar">
+        <nav class="navbar">
+            <img src="img/your-portrait.jpg" alt="Your Portrait" class="logo">
+            <a href="#home"><h1>GTARISTA</h1></a>
+            <a href="#about">ABOUT ME</a>
+            <a href="#experience">EXPERIENCES</a>
+            <a href="#contacts">GET IN TOUCH</a>
+        </nav>
+
+        <!-- Social Links -->
+        <div class="social-links">
+            <a href="https://www.linkedin.com/in/sethortega8" target="_blank" class="social-icon">
+                <img src="img/linkedin-icon.png" alt="LinkedIn">
+            </a>
+            <a href="https://github.com/gtarista" target="_blank" class="social-icon">
+                <img src="img/github-icon.png" alt="GitHub">
+            </a>
+            <a href="https://www.facebook.com/ggtarista/" target="_blank" class="social-icon">
+                <img src="img/facebook-icon.png" alt="Facebook">
+            </a>
+            <a href="https://open.spotify.com/user/12148579308?si=80b01e70be3f4d49" target="_blank" class="social-icon">
+                <img src="img/spotify-icon.png" alt="Spotify">
+            </a>
+            <a href="https://www.instagram.com/gtarista/" target="_blank" class="social-icon">
+                <img src="img/instagram-icon.png" alt="Instagram">
+            </a>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r110/three.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>  
